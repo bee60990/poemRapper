@@ -1,5 +1,17 @@
 body {
   background-color: aquamarine;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 1.5;
+  text-align: center;
 }
 form {
   padding: 30px;
@@ -11,12 +23,12 @@ form {
 }
 
 .container {
+  margin: 60px auto;
+  max-width: 600px;
   padding-top: 20px;
   font-family: "Amatic SC", sans-serif;
   font-weight: 400;
   font-style: normal;
-  max-width: 600px;
-  margin: 60px auto;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -40,5 +52,15 @@ form {
   padding: 20px;
   line-height: 2;
   border-left: 3px solid #885df1;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  width: 80%;
+}
+
+.instructions {
+  padding: 15px;
+  border: 1px solid rgba(65, 50, 100, 0.08);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: black;
 }
